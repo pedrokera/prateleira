@@ -1,17 +1,19 @@
 import Head from 'next/head'
 import { Container, Row, Card, Button } from 'react-bootstrap'
-import config from "../config.json"
+import modulo from "../modulo.json"
 
 export default function Home() {
   return (
     <Container className="md-container">
       <Head>
-        <title>{config.head.titulo}</title>
+        <title>{modulo.head.titulo}</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Container>
         <h1>
-          {config.home.titulo}
+          {modulo.home.titulo}
         </h1>
         <p>
           Get started by editing <code>pages/index.js</code>

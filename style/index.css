@@ -1,6 +1,10 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .md-container {
   max-width: 800px;
   padding-top: 2rem;
