@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import { Container, Row, Card, Button } from 'react-bootstrap'
+import config from "../config.json"
 
 export default function Home() {
   return (
     <Container className="md-container">
       <Head>
-        <title>ReactJS with react-bootstrap</title>
+        <title>{config.nome_fantasia}</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Container>
